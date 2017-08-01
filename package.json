@@ -1,0 +1,27 @@
+{
+  "name": "gulp-package-merge",
+  "version": "0.0.1",
+  "description": "merge multi package.json to a big package.json",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bondli/gulp-package-merge"
+  },
+  "keywords": [
+    "gulpplugin", "package-merge"
+  ],
+  "author": {
+    "name": "bondli",
+    "email": "250934756@qq.com",
+    "url": "https://github.com/bondli"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "~2.4.1"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.9",
+    "through2": "2.0.1"
+  },
+  "homepage": "https://github.com/bondli/gulp-package-merge"
+}
