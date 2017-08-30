@@ -49,10 +49,12 @@ module.exports = function(options, settings) {
     if(pkgDir && fs.existsSync(pkgDir)){
       var output = getMultiPkg(pkgDir);
       oldPkgObj.dependencies = Object.assign(cfgPkg.dependencies, output);
+      oldPkgObj.devDependencies = Object.assign(oldPkgObj.devDependencies, cfgPkg.devDependencies);
     }
     //没有配置pkgdir,从配置中生成新的pkg
     else {
       oldPkgObj.dependencies = Object.assign(oldPkgObj.dependencies, cfgPkg.dependencies);
+      oldPkgObj.devDependencies = Object.assign(oldPkgObj.devDependencies, cfgPkg.devDependencies);
     }
 
     try {

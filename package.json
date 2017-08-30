@@ -1,6 +1,6 @@
 {
   "name": "gulp-package-merge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "merge multi package.json to a big package.json",
   "main": "index.js",
   "repository": {
